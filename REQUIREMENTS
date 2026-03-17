@@ -1,0 +1,54 @@
+A. Functional Requirements
+The system must allow customer registration of devices.
+
+The system must capture customer details (name, phone number).
+
+The system must record device details (sticker number, charger, bag).
+
+The system must record device problem description.
+
+The system must indicate whether repair is internal or external.
+
+The system must track repair status.
+
+The system must calculate repair cost and profit.
+
+The system must record service type (pickup, drop-off, customer delivery).
+
+The system must allow updating repair progress.
+
+The system must store all records in a database (SQLite)
+
+B. Non-Functional Requirements
+
+Usability:
+
+System shall be easy to use for non-technical staff
+
+Interface shall allow device registration within 2 minutes
+
+Deployability:
+
+System shall run on Linux (Ubuntu)
+
+System shall run using Rust backend
+
+Maintainable:
+
+Code shall be modular
+
+Documentation shall be included in repository
+
+Scalability:
+
+System must support 100+ repair records
+
+Security:
+
+Customer data shall be stored securely
+
+Only authorized users can access system
+
+Performance:
+
+System shall load records within 2 seconds
