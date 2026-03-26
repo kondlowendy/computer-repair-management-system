@@ -1,3 +1,6 @@
+# Device Repair System - UML Use Case Diagram
+
+```mermaid
 %% UML Use Case Diagram for Device Repair System
 %% Actors: Customer, Technician, Admin, Delivery Staff, Payment System, Notification System
 %% Use Cases: 9+
