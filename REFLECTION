@@ -1,7 +1,15 @@
-Keep a healthy balance between customer and our business needs
+# Reflection
 
-Keeping system simple but useful
+Throughout this assignment, one of the key considerations was maintaining a balance between customer needs and business requirements. While designing the Computer Repair Management System, it was important to ensure that the system remained useful for the business while still being simple and easy for customers to use. This required careful thinking when defining use cases and system interactions.
 
-Cater for technical and non-technical users as the system has a diverse market.
+Another important aspect was keeping the system simple but effective. There were many possible features that could be added, but focusing on the core functionality such as device registration, repair tracking, and profit calculation helped keep the system manageable. This made it easier to translate requirements into clear use cases and test cases.
 
-The main challenges faced during this assignment was designing system requirements without first implementing the system in code.
+Designing for both technical and non-technical users was also a challenge. The system needs to be usable by technicians, administrators, and customers, all of whom have different levels of technical understanding. This influenced how use cases were structured and ensured that interactions were clear and straightforward.
+
+One of the main challenges faced during this assignment was designing system requirements without first implementing the system in code. It required thinking ahead about how the system should behave, rather than relying on trial and error through programming. This was particularly evident when defining preconditions, postconditions, and alternative flows in the use case specifications.
+
+Creating the use case diagram helped visualize how different actors interact with the system. However, deciding on relationships such as <<include>> and ensuring all actors were correctly linked to use cases required careful analysis. Writing use case specifications was also challenging, as it required breaking down each interaction step-by-step in a logical and structured way.
+
+Developing test cases further reinforced the connection between requirements and system validation. It required thinking from a testing perspective to ensure that each function works correctly and handles errors properly. Non-functional test cases, such as performance and security, were more difficult because they required considering system behavior under different conditions.
+
+Overall, this assignment improved my understanding of how to translate system requirements into structured models and testable scenarios. It highlighted the importance of planning, clear documentation, and ensuring that all system components align with stakeholder needs.
