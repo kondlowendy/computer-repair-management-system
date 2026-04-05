@@ -1,0 +1,11 @@
+# Reflection
+
+This assignment required translating system requirements and use cases into Agile artifacts such as user stories, a product backlog, and a sprint plan. One of the main challenges I faced was prioritizing features using the MoSCoW method. Since I am both the developer and the stakeholder in this project, it was difficult to objectively decide which features were truly essential and which could be delayed. At times, I wanted to include more features in the “Must-have” category because they all seemed important from a system perspective. However, I had to consciously step back and focus on what is necessary for a Minimum Viable Product (MVP).
+
+Another challenge was estimating story points. Without practical implementation experience for the system, it was difficult to accurately judge the effort required for each user story. I had to rely on logical reasoning and assumptions about complexity, which made me aware of how estimation in Agile can be subjective, especially in the early stages of development.
+
+Aligning Agile practices with stakeholder needs was also interesting in this case, as I had to simulate the role of a client while also acting as the developer. This created internal resistance, as I had to question my own decisions and ensure that I was not overcomplicating the system. For example, features like notifications and reporting seemed useful, but I had to recognize that they are not critical for the first version of the system.
+
+Using GitHub Agile tools was a valuable learning experience. Creating issues for user stories, organizing them into a project board, and assigning them to a sprint milestone helped me understand how real-world Agile teams manage their workflow. Moving tasks between “To Do,” “In Progress,” and “Done” provided a clear visual representation of progress and made the development process more structured.
+
+Overall, this assignment improved my understanding of Agile methodology and how to break down system requirements into manageable tasks. It highlighted the importance of prioritization, estimation, and iterative development. I also learned that Agile is not just about tools, but about making informed decisions and continuously refining the system based on what delivers the most value.
