@@ -1,0 +1,38 @@
+# Agile Development Update
+
+## Overview
+This section documents the transition of the Computer Repair Management System into an Agile development approach. The system requirements and use cases from previous assignments were translated into user stories, a product backlog, and a sprint plan.
+
+---
+
+## User Stories
+User stories were created using the Agile format:
+"As a [role], I want [action] so that [benefit]."
+
+These user stories were implemented and managed using GitHub Issues, allowing for traceability and task tracking throughout development.
+
+---
+
+## Product Backlog
+All user stories were organized into a prioritized product backlog using the MoSCoW method:
+- Must-have: Core system functionality required for operation
+- Should-have: Important features but not critical for initial release
+- Could-have: Optional features that enhance usability
+- Won’t-have: Features deferred for future development
+
+Story points were assigned to estimate effort and support sprint planning.
+
+---
+
+## Sprint Planning
+A Sprint 1 plan was created to deliver a Minimum Viable Product (MVP). The sprint focuses on essential features such as device registration, intake recording, repair tracking, and status updates.
+
+---
+
+## GitHub Agile Tools
+GitHub was used to manage Agile development:
+- Issues: Represent user stories
+- Milestones: Represent sprint planning (Sprint 1 – MVP)
+- Project Board: Tracks progress using To Do, In Progress, and Done columns
+
+This approach ensures transparency, organization, and alignment with Agile principles.
