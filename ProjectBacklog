@@ -1,0 +1,10 @@
+## Backlog Prioritization Justification
+
+The backlog was prioritized using the MoSCoW method to ensure that core system functionality is delivered first.
+
+- **Must-have** items (e.g., device registration, intake, repair tracking) are essential for the system to function and form the foundation of the MVP.
+- **Should-have** items (e.g., accessories tracking, profit calculation) add important business value but are not required for basic system operation.
+- **Could-have** items (e.g., notifications, reports) improve user experience but can be implemented later without affecting core functionality.
+- **Won’t-have** items (e.g., delivery staff tracking) are deferred to future iterations due to lower priority.
+
+Story points were assigned based on estimated complexity and effort, supporting effective sprint planning.
