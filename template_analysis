@@ -1,30 +1,41 @@
 # Template Analysis – GitHub Project Templates
 
-| Template Name        | Columns / Workflow                          | Automation Features                          | Agile Suitability |
-|---------------------|---------------------------------------------|----------------------------------------------|------------------|
-| Basic Kanban        | To Do, In Progress, Done                    | No automation                                | Good for simple projects |
-| Automated Kanban    | To Do, In Progress, Done                    | Auto-moves issues based on status updates    | Excellent for Agile teams |
-| Bug Triage          | New, Needs Review, In Progress, Done        | Auto-labeling and issue prioritization       | Best for maintenance projects |
-| Team Planning       | Backlog, Ready, In Progress, Done           | Supports planning and prioritization         | Good for sprint planning |
+## Comparison of GitHub Templates
+
+| Template Name     | Columns / Workflow                          | Automation Features                                  | Agile Suitability |
+|------------------|---------------------------------------------|------------------------------------------------------|------------------|
+| Basic Kanban     | To Do, In Progress, Done                    | No automation                                        | Suitable for small/simple Agile projects |
+| Automated Kanban | To Do, In Progress, Done                    | Automatically moves issues when status changes       | Highly suitable for Agile workflows |
+| Bug Triage       | New, Needs Review, In Progress, Done        | Auto-labeling, prioritization of bugs                | Suitable for maintenance, not full Agile |
+| Team Planning    | Backlog, Ready, In Progress, Done           | Supports planning and prioritization                 | Suitable for sprint planning |
 
 ---
 
-## ✅ Justification
+## Template Selection Justification
 
 The **Automated Kanban template** was selected for the Computer Repair Management System.
 
-This template is most suitable because:
+### Reasons:
 
-- It supports **automation**, which reduces manual task tracking.
-- Issues automatically move between columns when updated (e.g., closed → Done).
-- It aligns with **Agile principles** such as continuous delivery and iterative progress.
-- It works well with **user stories and sprint tasks** from Assignment 6.
-- It improves efficiency for tracking repair workflows like:
-  - Device intake
-  - Repair progress
-  - Testing
-  - Completion
+1. **Supports Agile Workflow**
+   - Matches development stages: To Do → In Progress → Done
 
-Compared to Basic Kanban, it saves time. Compared to Bug Triage, it is more suitable for development rather than just fixing issues.
+2. **Automation**
+   - Automatically moves tasks when issues are updated (e.g., closed issues → Done)
+   - Reduces manual work
 
-Therefore, Automated Kanban best supports the workflow of the system.
+3. **Integration with GitHub Issues**
+   - User stories and tasks can be tracked as issues
+   - Enables traceability between requirements and implementation
+
+4. **Suitability for the System**
+   - The system requires tracking multiple activities such as:
+     - Customer registration
+     - Device intake
+     - Repair tracking
+     - Pricing and reporting
+   - These tasks benefit from continuous tracking and updates
+
+### Conclusion
+
+The Automated Kanban template best supports Agile development, task tracking, and workflow visibility, making it the most suitable choice for this project.
