@@ -1,4 +1,5 @@
 # Domain Model
+The RepairJob entity acts as the central component of the system.
 
 ## Entities
 
