@@ -1,5 +1,5 @@
-from creational_patterns.simple_factory.repair_factory import RepairFactory
+from creational_patterns.simple_factory import DeviceFactory
 
-def test_create_screen_repair():
-    repair = RepairFactory.create_repair("screen", "iPhone cracked")
-    assert repair.repair_type == "Screen Repair"
+def test_device_factory():
+    laptop = DeviceFactory.create_device("laptop")
+    assert laptop.get_type() == "Laptop"
