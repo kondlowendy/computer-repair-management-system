@@ -1,19 +1,20 @@
-from repositories.repair_job_repository import RepairJobRepository
-
-class InMemoryRepairJobRepository(RepairJobRepository):
+class InMemoryRepairJobRepository:
 
     def __init__(self):
-        self._storage = {}
+        self.repairs = []
 
-    def save(self, entity):
-        self._storage[entity.id] = entity
+    def save(self, repair):
+        self.repairs.append(repair)
+        return repair
 
-    def find_by_id(self, id):
-        return self._storage.get(id)
+    def find_by_status(self, status):
+        return [
+            repair for repair in self.repairs
+            if repair.status == status
+        ]
 
-    def find_all(self):
-        return list(self._storage.values())
-
-    def delete(self, id):
-        if id in self._storage:
-            del self._storage[id]
+    def find_by_customer(self, customer_id):
+        return [
+            repair for repair in self.repairs
+            if repair.customer_id == customer_id
+        ]
